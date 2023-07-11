@@ -20,33 +20,17 @@
   <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
     <a class="navbar-brand" href="#">Mohamed Ugas</a>
-    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left:900px">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">My projects <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#my-projects">My projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="#">About me <span class="sr-only">(current)</span></a>
-          </li>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Contact me</a> -->
-          <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Venues</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Artists</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Upcoming Acts</a>
-          </div>
-        </li> --> 
-        
+            <a class="nav-link" href="#about-me">About me</a>
+          </li>  
       </ul>
     </div>
   </nav>
@@ -58,14 +42,14 @@
       <h1 class="display-4">Welcome to my Portfolio</h1>
       
       <p class="lead">I am a front-end developer. Check out my work below</p>
-      <img src="https://placehold.co/200x200">
+      <img src="https://placehold.co/300x300" style="margin-left: 900px;margin-bottom: 50px;">
       
     </div>
   </div>
   <!-- End jumbotron -->
 
-  <!-- Cards -->
-  <div class="container-fluid content">
+  <!-- Porject-Cards -->
+  <div class="container-fluid content" id="my-projects">
     <h2 class="sectionHeading">My Projects</h2>
     <br>
     <div class="row showsNear">
@@ -114,13 +98,12 @@
 
     </div>
   </div>
-  <!-- End cards -->
-  <br>
-  <br>
+  <!-- End Project-Cards -->
+  
 
-  <!-- Cards 2 -->
-  <div class="container-fluid content">
-    <h2 class="sectionHeading">My Skills</h2>
+  <!-- Skill-Cards -->
+  <div class="container-fluid content" id="skills" style="margin-top: 50px;">
+    <h2 class="sectionHeading" >My Skills</h2>
     <br>
     <div class="row showsNear">
 
@@ -168,36 +151,15 @@
 
     </div>
   </div>
-  <!-- End cards 2 -->
+  <!-- End Skills-Cards 2 -->
 
-  <!-- Content -->
-  <div class="container-fluid" style="margin-top:50px">
+  <!-- About me -->
+  <div class="container-fluid" id="about-me" style="margin-top:50px">
     <h2>About me</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veritatis dolor tempora quaerat voluptatum? Voluptatem inventore, dolores veritatis quibusdam placeat dignissimos voluptate sequi cupiditate non in cumque illo dolorum rem.</p>
   </div>
-
-  <!-- <div class="container-fluid"> -->
-
-    <!-- Row 1 -->
-    <!-- <div class="row">
-      <div class="sideAccent">
-      </div>
-      <div class="col-3">
-        <img src="images/assistance.png">
-      </div>
-      <div class="col-8">
-        <h3>Title 1</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-        </p>
-        <a href="#" class="btn btn-primary">Contact Us
-        </a>
-      </div>
-    </div> -->
-    <!-- End row 1 -->
-
   </div>
-  <!-- End content -->
+  <!-- End About me -->
 
   <!-- Footer -->
   <footer>
@@ -208,16 +170,9 @@
         <div style="text-decoration: none;font-weight: bold">555.555.5555</div>
         
       </div>
-    <!-- <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-          placeholder="Enter email">
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form> -->
   </footer>
   <!-- End footer -->
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
